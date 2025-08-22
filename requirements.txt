@@ -4,3 +4,4 @@ langchain-groq
 langchain-core
 validators
 youtube-transcript-api
+bs4
