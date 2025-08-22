@@ -1,10 +1,7 @@
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_community.document_loaders import UnstructuredURLLoader
-from langchain.chains.summarize import load_summarize_chain
 from essentials import *
 from dotenv import load_dotenv
-import validators
 import os
 
 load_dotenv()
