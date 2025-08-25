@@ -14,7 +14,7 @@ st.set_page_config(
 
 
 if not st.session_state.initialize:
-    st.session_state.bot = YouTubeSummarizer(prompt=system_prompt)
+    st.session_state.bot = YouTubeSummarizer(prompt=system_prompt, key=st.secrets['GROQ_API_KEY'])
     st.session_state.initialize = True
 
 st.title("🔴 AI-Powered URL Summarizer")
